@@ -1,0 +1,122 @@
+@import "nule.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap'); /*через гугл*/
+@import url(https://fonts.googleapis.com/css?family=Comforter:regular&display=swap); /*через плагин*/
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Book.woff2") format("woff2"), url("../fonts/CircularStd-Book.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: CircularStd;
+   src: url("../fonts/CircularStd-Medium.woff2") format("woff2"), url("../fonts/CircularStd-Medium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+body {
+   font-family: Lato, sans-serif;
+}
+.title {
+   color: red;
+   font-family: Comforter, sans-serif;
+   font-size: 40px;
+   text-align: center;
+   text-decoration: underline;
+}
+.shapka{
+   line-height: 1.5;
+}
+.menu {
+   color: rgb(5, 38, 136);
+   font-family: "El Messiri", sans-serif;
+   font-size: 15px;
+   text-decoration: underline;
+   font-weight: 600;
+   text-shadow: 10px 5px 10px;
+   text-transform: uppercase;
+   line-height: 2;
+}
+.pun {
+font-family: "Montserrat Alternates", sans-serif;
+font-size: 30px;
+color: salmon;
+font-weight: 900;
+text-align:center;
+line-height: 50px;
+}
+.pun2{
+font-family: "Montserrat Alternates", sans-serif;
+font-size: 30px;
+color: salmon;
+font-weight: 700;
+text-align:center;
+line-height: 50px;
+}
+.text{
+   font-family: "El Messiri", sans-serif;
+   color: tomato;
+}
+.text1{
+   color: seagreen;
+   font-size: 20px;
+   line-height: 2;
+}
+.text2{
+   color: steelblue;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 2.5;
+}
+.text3{
+   color: teal;
+   font-size: 20px;
+   font-weight: 900;
+   line-height: 1.5;
+}
+.text4{
+   font-family: "El Messiri", sans-serif;
+   color: violet;
+   font-size: 34px;
+   font-weight: 500;
+   line-height: 25px;
+   letter-spacing: 10px;
+   text-indent: 10px;
+}
+.text5{
+   word-spacing: 20px;
+   font-size: 30px;
+   text-align:right ;
+   color: steelblue;
+}
+.text6{
+   font-family: Comforter;
+   font-size: 30px;
+}
+.name{
+   font-family: CircularStd, sans-serif;
+   font-weight: 700;
+   font-size: 25px;
+   color: seagreen;
+}
+.name2{
+   font-family: CircularStd, sans-serif;
+   font-weight: 500;
+   font-size: 25px;
+   color: rgb(185, 30, 90);
+   text-decoration: line-through;
+}
+.name3{
+   font-family: CircularStd, sans-serif;
+   font-size: 20px;
+   color: rgb(194, 142, 47);
+   text-decoration: overline;
+}
